@@ -1,0 +1,879 @@
+{
+    "meta": {
+        "version": 1.0
+    },
+    "name": "KiCad Library Database",
+    "description": "A KiCad library database with individual tables for each component type",
+    "source": {
+        "type": "odbc",
+        "dsn": "",
+        "username": "",
+        "password": "",
+        "timeout_seconds": 2,
+        "connection_string": "DRIVER=SQLite3 ODBC Driver;Database=${CWD}\\820-1975.sqlite"
+    },
+    "libraries": [
+        {
+            "name": "Capacitors-0201",
+            "table": "Capacitors-0201",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Dielectric",
+                    "name": "Dielectric",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+        {
+            "name": "Capacitors-0402",
+            "table": "Capacitors-0402",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Dielectric",
+                    "name": "Dielectric",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+        {
+            "name": "Capacitors-0603",
+            "table": "Capacitors-0603",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Dielectric",
+                    "name": "Dielectric",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+		{
+            "name": "Capacitors-0805",
+            "table": "Capacitors-0805",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Dielectric",
+                    "name": "Dielectric",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+		{
+            "name": "Capacitors-1206",
+            "table": "Capacitors-1206",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Dielectric",
+                    "name": "Dielectric",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+        {
+            "name": "Capacitors-Other",
+            "table": "Capacitors-Other",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+		{
+            "name": "Common-Mode Chokes",
+            "table": "Common-Mode Chokes",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Impedance",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Current",
+                    "name": "Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Impedance",
+                    "name": "Impedance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "DCR",
+                    "name": "DCR",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+        {
+            "name": "Resistors-0201",
+            "table": "Resistors-0201",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Power",
+                    "name": "Power",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+        {
+            "name": "Resistors-0402",
+            "table": "Resistors-0402",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Power",
+                    "name": "Power",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+		{
+            "name": "Inductors",
+            "table": "Inductors",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Current",
+                    "name": "Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "DCR",
+                    "name": "DCR",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+		{
+            "name": "Ferrite Beads",
+            "table": "Ferrite Beads",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Impedance",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Current",
+                    "name": "Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "DCR",
+                    "name": "DCR",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Impedance",
+                    "name": "Impedance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+		{
+            "name": "Fuses",
+            "table": "Fuses",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+				{
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Current",
+                    "name": "Current",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+		{
+            "name": "Crystals",
+            "table": "Crystals",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Tolerance",
+                    "name": "Tolerance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Stability",
+                    "name": "Stability",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Load Capacitance",
+                    "name": "Load Capacitance",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+        {
+            "name": "Switches",
+            "table": "Switches",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+        {
+            "name": "Connectors",
+            "table": "Connectors",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+        {
+            "name": "Diodes",
+            "table": "Diodes",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Current",
+                    "name": "Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+        {
+            "name": "Transistors",
+            "table": "Transistors",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Type",
+                    "name": "Type",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Voltage",
+                    "name": "Voltage",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Current",
+                    "name": "Current",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+        {
+            "name": "ICs",
+            "table": "ICs",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+		{
+            "name": "PCB Components",
+            "table": "PCB Components",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "properties": {
+                "description": "Description"
+            }
+        }
+    ]
+}

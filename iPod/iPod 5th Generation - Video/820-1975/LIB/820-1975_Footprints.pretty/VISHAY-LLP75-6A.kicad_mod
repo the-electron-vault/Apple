@@ -1,0 +1,259 @@
+(footprint "VISHAY-LLP75-6A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Vishay LLP75-6A")
+	(tags "VISHAY-LLP75-6A")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "ba5e12ed-3c26-4b66-a6df-38f72030d493")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LLP75-6A"
+		(at 0.05 2 180)
+		(layer "F.Fab")
+		(uuid "42b3d5d1-6417-4a5f-8e0b-991fa896d2a0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7414178a-4e13-4403-94df-23834a1313b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "930eaf48-57f9-4fe7-bcad-7ad346f32285")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dcdc76b1-50d9-464a-8398-179b42affca9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.5 -0.125)
+		(end -0.3 0.125)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill solid)
+		(layer "F.Cu")
+		(uuid "46ef0013-37f1-4f42-8188-eced30329a85")
+	)
+	(fp_line
+		(start -0.255 -0.8)
+		(end 0.255 -0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fd31cebd-3e13-4463-a30e-72149cfec487")
+	)
+	(fp_line
+		(start -0.255 0.8)
+		(end 0.255 0.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23602ac9-1856-4319-b5b5-e00ffa7e413c")
+	)
+	(fp_line
+		(start -1.2 -1.05)
+		(end -1.2 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d7dd4c19-438f-4aa5-a896-9f073dd7a7c7")
+	)
+	(fp_line
+		(start -1.2 1.05)
+		(end 1.2 1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0e27c8eb-d16f-4a85-85ad-6aeb6acde1c4")
+	)
+	(fp_line
+		(start 1.199999 -1.05)
+		(end -1.2 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1204bb20-ff27-4244-b91f-f6b50ea18e72")
+	)
+	(fp_line
+		(start 1.2 1.05)
+		(end 1.199999 -1.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f3ef864b-1ce7-4115-aef0-3ad691aa11f1")
+	)
+	(fp_line
+		(start -0.8 -0.6)
+		(end -0.8 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f19ffb0-07df-414f-a80f-9f813e7d4893")
+	)
+	(fp_line
+		(start -0.8 -0.6)
+		(end -0.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "484d5cec-a936-4695-8e68-a6f89228658d")
+	)
+	(fp_line
+		(start -0.8 0.8)
+		(end 0.8 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e5505e2c-6145-4940-8763-b21e5d4f1532")
+	)
+	(fp_line
+		(start 0.8 -0.8)
+		(end -0.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "659edac2-e5a0-48be-ae35-33000be59faa")
+	)
+	(fp_line
+		(start 0.8 0.8)
+		(end 0.8 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7e5cd05e-5f19-4998-b77f-41072f0602c0")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 90)
+		(layer "F.Fab")
+		(uuid "06cf618e-a7bc-41f6-8440-ecf91943189c")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.075)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.725 -0.5)
+		(size 0.45 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "28e708b8-d3c9-486e-884b-ca1b86dea289")
+	)
+	(pad "2" smd rect
+		(at -0.725 0)
+		(size 0.45 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "60822f64-2a21-4020-aefa-02ecd6127a3b")
+	)
+	(pad "2" smd rect
+		(at 0 0)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "44642f75-f771-47fc-8baa-1f870f4e507f")
+	)
+	(pad "3" smd rect
+		(at -0.725 0.5)
+		(size 0.45 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "5dff1eb8-15d1-4564-b736-17c9de953d19")
+	)
+	(pad "4" smd rect
+		(at 0.725 0.5)
+		(size 0.45 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "a748f67e-fe7f-4071-8955-824616328c92")
+	)
+	(pad "5" smd rect
+		(at 0.725 0)
+		(size 0.45 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "ad12a386-7b9b-438c-8c2b-a6b004f1cc7d")
+	)
+	(pad "6" smd rect
+		(at 0.725 -0.5)
+		(size 0.45 0.25)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "097ac030-c735-4bb9-a2cc-54d24d45b532")
+	)
+	(model "${KIPRJMOD}/LIB/MODEL/Vishay LLP75-6A.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

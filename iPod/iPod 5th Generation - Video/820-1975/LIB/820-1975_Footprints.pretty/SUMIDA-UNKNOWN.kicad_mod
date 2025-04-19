@@ -1,0 +1,203 @@
+(footprint "SUMIDA-UNKNOWN"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Unknown Sumida Inductor")
+	(tags "SUMIDA-UNKNOWN")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "effead60-2b17-4463-91cf-34792a2b459a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SUMIDA-UNKNOWN"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "83cd9c78-75b4-4eec-9501-2ff4a6e7a26e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9d5e4dd0-27f4-4cd8-8d6f-13d6ee7c2b5e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7151185f-80c8-44e1-a433-4db810ad8052")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8eedfea4-aeb6-4f88-9a1a-f76b50463106")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -1.45)
+		(end 0.7 -1.45)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "50d73c73-1fc7-4f70-b500-4f022e5c5b6f")
+	)
+	(fp_line
+		(start -0.7 1.45)
+		(end 0.7 1.45)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bec02b81-d708-4256-965b-fa2757d12811")
+	)
+	(fp_line
+		(start -3.25 -1.675)
+		(end 3.25 -1.675)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "da940cbc-bbeb-4213-b690-eae23cf1a945")
+	)
+	(fp_line
+		(start -3.25 1.675)
+		(end -3.25 -1.675)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bcb89d8a-3621-42ee-9699-5c6ca486d16b")
+	)
+	(fp_line
+		(start 3.25 -1.675)
+		(end 3.25 1.725)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0204c7f6-ea05-4e29-98bb-0e0ef3db3b30")
+	)
+	(fp_line
+		(start 3.25 1.675)
+		(end -3.25 1.675)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b19d0c9-1953-4904-8ff3-65e15354d318")
+	)
+	(fp_line
+		(start -2.55 -1.375)
+		(end -2.55 1.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f2809a90-f334-4386-a711-87704c8a7e94")
+	)
+	(fp_line
+		(start -2.55 -1.375)
+		(end 2.55 -1.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1c95e77a-2e53-42cc-9c25-ab7bb7b5df7b")
+	)
+	(fp_line
+		(start -2.55 1.375)
+		(end 2.55 1.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f8925b1a-9b68-4f48-a08c-a35deb47adf2")
+	)
+	(fp_line
+		(start 2.55 -1.375)
+		(end 2.55 1.375)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "29277e4f-b72b-42b4-8d75-c1806796f3b3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b5354c63-16aa-4898-aa0c-eeb3d035fc5f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.15 0)
+		(size 1.7 2.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "9702d628-9b91-4d58-9130-9271bd872f5b")
+	)
+	(pad "2" smd rect
+		(at 2.15 0)
+		(size 1.7 2.85)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "1ad1544b-7ba3-4927-93fd-ab9c0a8dba06")
+	)
+	(model "${KIPRJMOD}/LIB/MODEL/Sumida Unknown.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

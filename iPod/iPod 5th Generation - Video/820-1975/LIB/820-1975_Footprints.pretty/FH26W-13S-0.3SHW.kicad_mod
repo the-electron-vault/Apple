@@ -1,0 +1,354 @@
+(footprint "FH26W-13S-0.3SHW"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Hirose FH26W-13S-0.3SHW")
+	(tags "FH26W-13S-0.3SHW")
+	(property "Reference" "REF**"
+		(at 0 -3.5 0)
+		(layer "F.SilkS")
+		(uuid "c85d50c2-5dc1-4571-af74-61d72c8c402b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FH26W-13S-0.3SHW"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "12027e47-e1d0-4164-a2ac-5c1a414907ae")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d4061c6-c3ac-40c9-bd69-3e27abd85721")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ce559c1b-97f5-4a21-a4ee-6de6ec8039ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5674a146-0efa-42ca-96fd-49226325ad62")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.7 -0.55)
+		(end -2.7 -1.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "47dc0902-78fe-4623-a3e1-94b1f5fba524")
+	)
+	(fp_line
+		(start -2.1 -1.15)
+		(end -2.7 -1.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5ef4fa4f-54a5-4401-bfb9-101322b08cc6")
+	)
+	(fp_line
+		(start -1.8 2.075)
+		(end -2 2.475)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d540030c-a3a8-4b78-89db-b5b596627638")
+	)
+	(fp_line
+		(start -1.6 2.475)
+		(end -1.8 2.075)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "60a394e1-2aa6-44b7-a888-846065283a33")
+	)
+	(fp_line
+		(start 2.1 -1.15)
+		(end 2.7 -1.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4cae406c-1fd1-4318-86c1-a45fbef0132e")
+	)
+	(fp_line
+		(start 2.7 -0.55)
+		(end 2.7 -1.15)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3d7436f-6495-46a3-b113-d29a29ccfb85")
+	)
+	(fp_line
+		(start -3.025 -2.05)
+		(end -3.025 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "760a8eb6-f7cd-4e1d-a084-01b659a8cf31")
+	)
+	(fp_line
+		(start -3.025 2.05)
+		(end 3.025 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0bdc4dec-350d-4406-a418-a7b0ca73f793")
+	)
+	(fp_line
+		(start 3.025 -2.05)
+		(end -3.025 -2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43f9b00a-93cc-4c83-818e-d6398781103a")
+	)
+	(fp_line
+		(start 3.025 -2.05)
+		(end 3.025 2.05)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b29ebb9f-d254-4994-8748-9678eaf20eba")
+	)
+	(fp_line
+		(start -2.7 -1.6)
+		(end 2.7 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d10695ba-abd0-4412-84e2-985a1460c1e6")
+	)
+	(fp_line
+		(start -2.7 1.6)
+		(end -2.7 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "59e984d4-fba1-4d27-8a32-81fd4ca5522a")
+	)
+	(fp_line
+		(start -2.3 1.6)
+		(end -1.8 0.892893)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "805b66ae-6a6b-4380-a552-1a1c2d98870f")
+	)
+	(fp_line
+		(start -1.8 0.892893)
+		(end -1.3 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f4d1142-573e-41cd-bc8a-d0aa3318d44b")
+	)
+	(fp_line
+		(start 2.7 1.6)
+		(end -2.7 1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "335853d9-aa7b-4731-81af-ba15275f4262")
+	)
+	(fp_line
+		(start 2.7 1.6)
+		(end 2.7 -1.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b4490d37-d004-45f2-976b-ed58d8ad4eb5")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "72c7b51c-ab61-4e55-ac0e-7cfa11431c1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.8 1.4)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "e6175ec2-8d35-4fdf-87e0-290426029519")
+	)
+	(pad "2" smd rect
+		(at -1.5 -1.475)
+		(size 0.3 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "70f2fe59-44a5-476c-b68d-3a94b6f65cc7")
+	)
+	(pad "3" smd rect
+		(at -1.2 1.4)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "3c80ef90-32bf-4b04-82e6-58d9fa237ac7")
+	)
+	(pad "4" smd rect
+		(at -0.9 -1.475)
+		(size 0.3 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "ac9eb631-756c-4e5f-b095-905ec2fef694")
+	)
+	(pad "5" smd rect
+		(at -0.6 1.4)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "a9df78d9-fc93-4176-97be-16630c4b4e84")
+	)
+	(pad "6" smd rect
+		(at -0.3 -1.475)
+		(size 0.3 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "37147edb-7858-463d-8f19-a051751ffaf2")
+	)
+	(pad "7" smd rect
+		(at 0 1.4)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "55aade53-637c-4db7-b3ee-40cd98a7d302")
+	)
+	(pad "8" smd rect
+		(at 0.3 -1.475)
+		(size 0.3 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "15311391-6016-4fe7-b4ba-031107129360")
+	)
+	(pad "9" smd rect
+		(at 0.6 1.4)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "b0b22218-fcc6-48f6-9720-bc32eae8d915")
+	)
+	(pad "10" smd rect
+		(at 0.9 -1.475)
+		(size 0.3 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "6ac7acb0-80ed-4c04-9625-69c6c212e442")
+	)
+	(pad "11" smd rect
+		(at 1.2 1.4)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "4c4acc2d-5279-44f2-8b73-e37c4f8e8701")
+	)
+	(pad "12" smd rect
+		(at 1.5 -1.475)
+		(size 0.3 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "6cf7c3df-4425-4831-a220-67ceb3762f6b")
+	)
+	(pad "13" smd rect
+		(at 1.8 1.4)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "0a6f181e-2c58-4b2c-a466-6b259958c696")
+	)
+	(pad "MH" smd rect
+		(at -2.5 1.125)
+		(size 0.4 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.1)
+		(uuid "ccf7bef1-5bca-4b15-923c-a59a21fa1e34")
+	)
+	(pad "MH" smd rect
+		(at 2.5 1.125)
+		(size 0.4 0.95)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.1)
+		(uuid "5d9977bb-2092-4c25-b615-94ee6533112d")
+	)
+	(model "${KIPRJMOD}/LIB/MODEL/Hirose FH26W-13S-0.3SHW.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

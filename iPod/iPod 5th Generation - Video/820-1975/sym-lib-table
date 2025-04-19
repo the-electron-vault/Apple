@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "820-1975")(type "Database")(uri "${KIPRJMOD}/LIB/820-1975.kicad_dbl")(options "")(descr ""))
+  (lib (name "820-1975_Symbols")(type "KiCad")(uri "${KIPRJMOD}/LIB/820-1975_Symbols.kicad_sym")(options "")(descr ""))
+)
