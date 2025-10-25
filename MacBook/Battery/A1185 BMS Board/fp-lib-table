@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "A1185 BMS Board_Footprints")(type "KiCad")(uri "${KIPRJMOD}/LIB/A1185 BMS Board_Footprints.pretty")(options "")(descr ""))
+)
