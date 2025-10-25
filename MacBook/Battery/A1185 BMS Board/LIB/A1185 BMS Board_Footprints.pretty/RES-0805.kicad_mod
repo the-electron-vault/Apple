@@ -1,0 +1,253 @@
+(footprint "RES-0805"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resistor 0805")
+	(tags "Resistor")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "effead60-2b17-4463-91cf-34792a2b459a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RES-0805"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "83cd9c78-75b4-4eec-9501-2ff4a6e7a26e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b68dbf46-dc1b-41f4-898d-1974dd321719")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41bcf45d-4952-44ef-aaee-b66ab006dfe4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d997db7-4b0c-4199-a4d4-35c0e35bc5ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.75 -0.95)
+		(end -1.75 0.95)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "40fd5103-1cd9-4f48-914d-60cd2a9962b9")
+	)
+	(fp_line
+		(start -1.75 -0.95)
+		(end 1.75 -0.95)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ebcb6e44-88bd-4658-b7bb-d08d9939b7b8")
+	)
+	(fp_line
+		(start 0 -0.95)
+		(end 0 0.95)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "b293abe1-5d5a-4a67-8be2-f6c38aa9d195")
+	)
+	(fp_line
+		(start 1.75 0.95)
+		(end -1.75 0.95)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0c64b0eb-48c7-4884-828b-33727c936074")
+	)
+	(fp_line
+		(start 1.75 0.95)
+		(end 1.75 -0.95)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d6b6c83a-403b-4440-a7f0-320ac44f1ac0")
+	)
+	(fp_line
+		(start -1.75 -0.975)
+		(end 1.75 -0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "093a86c2-04b7-4bec-9626-1dee4fcbc947")
+	)
+	(fp_line
+		(start -1.75 0.975)
+		(end -1.75 -0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a0fc05d7-dec1-41a9-93d6-a30ccb188387")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e5debb88-61b6-4316-8807-a080d1a93197")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2b0acbe0-d998-4827-a981-87ed17948f96")
+	)
+	(fp_line
+		(start 1.75 -0.975)
+		(end 1.75 0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bd24e3aa-3f90-4ad2-ad2b-fe43dd142130")
+	)
+	(fp_line
+		(start 1.75 0.975)
+		(end -1.75 0.975)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0ed19689-30db-4897-9d7e-504a1439ab23")
+	)
+	(fp_line
+		(start -1 -0.625)
+		(end 1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e73c85cd-37bc-422b-91a3-e268ce9a1281")
+	)
+	(fp_line
+		(start -1 0.625)
+		(end -1 -0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "37f98079-19ff-4dd9-ac60-76d47722b840")
+	)
+	(fp_line
+		(start 1 -0.625)
+		(end 1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b1a33891-38ab-48fb-8542-eb6b9260c23c")
+	)
+	(fp_line
+		(start 1 0.625)
+		(end -1 0.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b0e87530-3bac-4895-be8c-fdb50669192d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b5354c63-16aa-4898-aa0c-eeb3d035fc5f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "9702d628-9b91-4d58-9130-9271bd872f5b")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 1 1.45)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "1ad1544b-7ba3-4927-93fd-ab9c0a8dba06")
+	)
+	(model "${KIPRJMOD}/LIB/MODEL/0805 Resistor.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
