@@ -48,6 +48,7 @@
 			)
 			(layer "F.Mask"
 				(type "Top Solder Mask")
+				(color "Green")
 				(thickness 0.01)
 			)
 			(layer "F.Cu"
@@ -56,6 +57,7 @@
 			)
 			(layer "dielectric 1"
 				(type "core")
+				(color "FR4 natural")
 				(thickness 0.75)
 				(material "FR4")
 				(epsilon_r 4.5)
@@ -67,6 +69,7 @@
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
+				(color "Green")
 				(thickness 0.01)
 			)
 			(layer "B.Paste"
