@@ -1,0 +1,238 @@
+(footprint "MLCC-0201"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Capacitor, MLCC, 0201")
+	(tags "Capacitor")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "41d78466-b78f-4259-a93b-b5098dbbea74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MLCC-0201"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "c8b0a43f-eb80-49fa-9f77-e02d4b03d7c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9f075e5-143a-4f5b-b574-77bf780debce")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "29347a48-40ab-4e46-920d-effd8e5bd820")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d0fe467e-d5a0-4379-b467-3f616cf924ff")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -0.35 -0.1)
+		(end -0.325 0.1)
+		(stroke
+			(width 0.35)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "8652f20a-6091-48d3-84e5-a40006145c02")
+	)
+	(fp_rect
+		(start 0.325 -0.1)
+		(end 0.35 0.1)
+		(stroke
+			(width 0.35)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Paste")
+		(uuid "11feede6-4a71-4e0f-b976-4b5f677c09db")
+	)
+	(fp_rect
+		(start -0.375 -0.125)
+		(end 0.375 0.125)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "1314a303-b56c-404b-a7fe-bf45f7ad38ff")
+	)
+	(fp_line
+		(start -0.9 -0.65)
+		(end 0.9 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "930cfff5-1bf9-445e-9490-db5db8c28885")
+	)
+	(fp_line
+		(start -0.9 0.65)
+		(end -0.9 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5b34f0a-51cf-4df4-9092-23ca4c000686")
+	)
+	(fp_line
+		(start -0.9 0.65)
+		(end 0.9 0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "24309278-3868-4fed-b447-e8ceab5062ac")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4a1225bd-5f27-4964-87d9-e45b190aa416")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "fc4383bf-bd7a-4d7b-982a-aecbda5870a3")
+	)
+	(fp_line
+		(start 0.9 0.65)
+		(end 0.9 -0.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "a6268c47-a2ff-4b5b-a27e-e2c821f10914")
+	)
+	(fp_line
+		(start -0.3 -0.15)
+		(end 0.3 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "08367b59-5e4f-420a-955b-d6af94448de7")
+	)
+	(fp_line
+		(start -0.3 0.15)
+		(end -0.3 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3ea1d1f-8dd3-428a-9f6f-943f88cd603f")
+	)
+	(fp_line
+		(start -0.3 0.15)
+		(end 0.3 0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7454c9f2-5c37-4eb2-9b0e-42d7755ca79b")
+	)
+	(fp_line
+		(start 0.3 0.15)
+		(end 0.3 -0.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "893c6a08-861b-4af8-bb8d-54292dd44fda")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "529e6049-55c2-48f4-a688-ff2e7e3c736c")
+		(effects
+			(font
+				(size 0.26 0.26)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -0.45 0)
+		(size 0.6 1)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1666666667)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "a15bb37b-f362-4c08-adc9-0fae05615a74")
+	)
+	(pad "2" smd roundrect
+		(at 0.45 0)
+		(size 0.6 1)
+		(layers "F.Cu")
+		(roundrect_rratio 0.1666666667)
+		(solder_paste_margin_ratio -0.05)
+		(uuid "0cccb7d5-0d3a-426a-9d28-0141a4a78ccc")
+	)
+	(model "${KIPRJMOD}/LIB/MODEL/0201 MLCC.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

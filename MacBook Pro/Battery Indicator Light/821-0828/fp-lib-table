@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "821-0828_Footprints")(type "KiCad")(uri "${KIPRJMOD}/LIB/821-0828_Footprints.pretty")(options "")(descr ""))
+)
