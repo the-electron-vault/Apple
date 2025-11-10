@@ -1,0 +1,97 @@
+(footprint "FIDUCIAL"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Fiducial")
+	(tags "FIDUCIAL")
+	(property "Reference" "REF**"
+		(at 0 -1.5 0)
+		(layer "F.SilkS")
+		(uuid "41d78466-b78f-4259-a93b-b5098dbbea74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "FIDUCIAL"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(uuid "c8b0a43f-eb80-49fa-9f77-e02d4b03d7c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7068a39b-246d-4132-b816-911630de3c5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b6170b4-d112-4f23-a2a0-d1c6eac1e98e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "025a5ab3-64de-45c0-950a-1057000b1307")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 0.55 0)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "70c1a88f-7f59-4518-a601-e94c7827d2a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "100f2a66-4657-42ea-897a-87aad21f4ebe")
+		(effects
+			(font
+				(size 0.26 0.26)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "" smd rect
+		(at 0 0)
+		(size 0.5 0.5)
+		(property pad_prop_testpoint)
+		(layers "F.Cu")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "acc6ad4e-1428-4571-a71e-64d922a3918f")
+	)
+)
