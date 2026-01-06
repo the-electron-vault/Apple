@@ -584,7 +584,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "C:/Program Files/KiCad/8.0/bin/",
-      "plot": "MFG/",
+      "plot": "MFG/GERBER",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "STEP/Cinema Display Barrel Jack Adapter.step",

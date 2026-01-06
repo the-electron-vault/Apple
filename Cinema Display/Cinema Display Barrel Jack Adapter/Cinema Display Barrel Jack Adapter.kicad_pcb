@@ -847,7 +847,7 @@
 		(at 111.76 108.8 180)
 		(descr "Tensility 54-00253")
 		(property "Reference" "J2"
-			(at 6.5 -7.5 0)
+			(at -5 -7.5 0)
 			(layer "F.SilkS")
 			(uuid "8836055b-f65b-453b-8056-80314ff609af")
 			(effects
@@ -859,7 +859,7 @@
 			)
 		)
 		(property "Value" "54-00253"
-			(at 0 6.999999 360)
+			(at 0 6.999999 0)
 			(layer "F.Fab")
 			(uuid "95573d09-19f6-41a4-bc12-65fd255131f2")
 			(effects
@@ -870,7 +870,7 @@
 			)
 		)
 		(property "Footprint" "Cinema Display Barrel Jack Adapter_Footprints:54-00253"
-			(at 0 4.800001 360)
+			(at 0 4.800001 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a3efbf4b-7724-46e3-b21e-47f2965ad7da")
@@ -882,7 +882,7 @@
 			)
 		)
 		(property "Datasheet" "-"
-			(at 0 4.800001 360)
+			(at 0 4.800001 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "607fb26d-9f81-410c-8ec3-6314fa4a6a00")
@@ -894,7 +894,7 @@
 			)
 		)
 		(property "Description" "CONN BARREL JACK 2.1 x 5.5mm"
-			(at 0 4.800001 360)
+			(at 0 4.800001 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "39a28a34-c9c2-4bb0-93e1-b1b05c6066ec")
@@ -979,7 +979,7 @@
 		)
 		(fp_arc
 			(start -5.1 -5.4)
-			(mid -4.953553 -5.753552)
+			(mid -4.953553 -5.753553)
 			(end -4.6 -5.9)
 			(stroke
 				(width 0.1)
@@ -1029,7 +1029,7 @@
 			(uuid "4fbd2de5-88bc-48bf-9d73-fd4ea9a11310")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "b03dc067-08ed-47a8-a1f5-b828094effa0")
 			(effects
@@ -1405,6 +1405,32 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "e702764e-5e4e-4d6d-9981-1f79ce28d8e5")
+	)
+	(gr_text "©2026"
+		(at 107.26 120.5 90)
+		(layer "F.SilkS")
+		(uuid "0a290ee9-430f-4da6-9cb5-488e3d7096bc")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "The Electron Vault"
+		(at 105.56 128.4 90)
+		(layer "F.SilkS")
+		(uuid "9e78d3d1-716e-4b33-bb47-b0a5c71b60ce")
+		(effects
+			(font
+				(size 0.9 0.9)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "Min track/spacing: "
 		(at 122.51 70.408 0)
