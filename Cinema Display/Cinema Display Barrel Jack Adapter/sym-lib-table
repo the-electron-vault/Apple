@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Cinema Display Barrel Jack Adapter")(type "Database")(uri "${KIPRJMOD}/LIB/Cinema Display Barrel Jack Adapter.kicad_dbl")(options "")(descr ""))
+  (lib (name "Cinema Display Barrel Jack Adapter_Symbols")(type "KiCad")(uri "${KIPRJMOD}/LIB/Cinema Display Barrel Jack Adapter.kicad_sym")(options "")(descr ""))
+)
