@@ -1,0 +1,221 @@
+(footprint "54-00254"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Tensility 54-00254")
+	(property "Reference" "REF**"
+		(at 0 -10.2 0)
+		(layer "F.SilkS")
+		(uuid "effead60-2b17-4463-91cf-34792a2b459a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "54-00254"
+		(at 0 7 0)
+		(layer "F.Fab")
+		(uuid "83cd9c78-75b4-4eec-9501-2ff4a6e7a26e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 4.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b68dbf46-dc1b-41f4-898d-1974dd321719")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 4.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "41bcf45d-4952-44ef-aaee-b66ab006dfe4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 4.8 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d997db7-4b0c-4199-a4d4-35c0e35bc5ba")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5.1 4.8)
+		(end -5.1 -5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "28da2d3d-fb76-4420-9ead-4f79bf6001f0")
+	)
+	(fp_line
+		(start -4.6 -5.9)
+		(end 4.6 -5.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d6c285e5-4278-4674-8229-13969acfbd55")
+	)
+	(fp_line
+		(start 5.1 4.8)
+		(end 5.1 -5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "cd235457-a62c-42d1-85de-ef4da203019d")
+	)
+	(fp_arc
+		(start -5.1 -5.4)
+		(mid -4.953553 -5.753553)
+		(end -4.6 -5.9)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f8662d44-5331-4c0c-918b-0d21174bf736")
+	)
+	(fp_arc
+		(start 4.6 -5.9)
+		(mid 4.953553 -5.753553)
+		(end 5.1 -5.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f1740554-a992-45a1-be81-8542aaa8c453")
+	)
+	(fp_line
+		(start -5 -5.8)
+		(end 5 -5.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "f1f20f81-a9f2-4650-9a47-e54a0a692ddf")
+	)
+	(fp_line
+		(start -5 5.8)
+		(end -5 -5.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6585be15-63ff-4d05-8301-7d21796666cc")
+	)
+	(fp_line
+		(start -5 5.8)
+		(end 5 5.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "4dbd301b-9598-4232-a501-f56c13174233")
+	)
+	(fp_line
+		(start 5 5.8)
+		(end 5 -5.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2924cb57-02ef-4f93-97b2-52e7fef8507b")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "b5354c63-16aa-4898-aa0c-eeb3d035fc5f")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.08)
+			)
+		)
+	)
+	(pad "A" thru_hole circle
+		(at 0.8 -7.8)
+		(size 2 2)
+		(drill 1.4)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(thermal_bridge_angle 90)
+		(uuid "1e5aa897-7619-4516-ae8b-03473ca6b228")
+	)
+	(pad "B" thru_hole rect
+		(at -6.3 -4.9)
+		(size 1.6 2.6)
+		(drill oval 1 2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6bb35937-7d85-4347-aaa6-f80ec76e9d05")
+	)
+	(pad "C" thru_hole rect
+		(at 6.3 -5.1)
+		(size 1.6 2.1)
+		(drill oval 1 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0736b59f-fb1c-4dc6-9f8b-5184614c2c3b")
+	)
+	(pad "D" thru_hole rect
+		(at -6.5 1.7)
+		(size 1.6 2.4)
+		(drill oval 1 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2ada3c22-3291-481f-8295-da8654dc7f84")
+	)
+	(pad "D" thru_hole rect
+		(at 6.5 1.7)
+		(size 1.6 2.4)
+		(drill oval 1 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "57d260d7-d629-46e2-806f-e91a6536b49b")
+	)
+	(model "${KIPRJMOD}/LIB/MODEL/Tensility 54-00254.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
