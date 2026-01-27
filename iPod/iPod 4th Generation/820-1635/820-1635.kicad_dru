@@ -1,0 +1,4 @@
+(version 1)
+(rule "Clearance zone to board-edge"
+  (constraint edge_clearance (min 0.5mm))
+  (condition "A.Type =='Zone' "))

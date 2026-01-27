@@ -1,0 +1,53 @@
+{
+    "meta": {
+        "version": 1.0
+    },
+    "name": "KiCad Library Database",
+    "description": "A KiCad library database with individual tables for each component type",
+    "source": {
+        "type": "odbc",
+        "dsn": "",
+        "username": "",
+        "password": "",
+        "timeout_seconds": 2,
+        "connection_string": "DRIVER=SQLite3 ODBC Driver;Database=${CWD}\\632-0259.sqlite"
+    },
+    "libraries": [
+        {
+            "name": "Connectors",
+            "table": "Connectors",
+            "key": "Component ID",
+            "symbols": "Symbol",
+            "footprints": "Footprint",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Manufacturer Part Number",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Manufacturer Part Number",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        }
+    ]
+}

@@ -1,0 +1,242 @@
+(footprint "TPS-B"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Kyocera TPS-B")
+	(property "Reference" "REF**"
+		(at 0 -2.5 0)
+		(layer "F.SilkS")
+		(uuid "6df974b4-b819-4abf-a570-cfac24b90f22")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPS-B"
+		(at 0 2.5 0)
+		(layer "F.Fab")
+		(uuid "43a2d3f9-8880-4891-bb65-e1f1adf1c2a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a38cc7c1-362f-4599-b910-bd04bbe3ae6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1e64e8ff-e95f-4e8b-ac5b-e4e5abb86600")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a6cf75d6-5d35-4c5f-b6eb-268fe433b72e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.7 -1.5)
+		(end -2.7 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "574387b0-dd9e-4e99-adb7-dee5a166832f")
+	)
+	(fp_line
+		(start -2.7 -1.5)
+		(end -1.9 -1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d288d865-b41f-42ce-a86d-4ada9a16101b")
+	)
+	(fp_line
+		(start -2.7 1.5)
+		(end -1.9 1.5)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "df0d85b2-f157-4fcb-9420-279da0ae6d5c")
+	)
+	(fp_line
+		(start -2.625 -1.65)
+		(end 2.625 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8de715c9-d116-4669-88dc-2f091e8c2f79")
+	)
+	(fp_line
+		(start -2.625 1.65)
+		(end -2.625 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "83e7f31b-853c-479b-8c7b-07a1e6adfc0b")
+	)
+	(fp_line
+		(start -2.625 1.65)
+		(end 2.625 1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5003fb79-0635-430f-816b-d20bc7c77bfe")
+	)
+	(fp_line
+		(start 0 0.5)
+		(end 0 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6c898267-816e-44a5-8530-d506e3fd94f9")
+	)
+	(fp_line
+		(start 0.5 0)
+		(end -0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "965991fd-eb81-46b5-a20e-db869f7d44af")
+	)
+	(fp_line
+		(start 2.625 1.65)
+		(end 2.625 -1.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f40e812e-3db4-4afe-af92-a0f825b0acf3")
+	)
+	(fp_line
+		(start -1.75 -1.4)
+		(end 1.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "58a6cca3-41d7-402b-bef1-2892880612ff")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end -1.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bed21c9b-a022-4bdf-bc25-4684ec05a887")
+	)
+	(fp_line
+		(start -1.75 1.4)
+		(end 1.75 1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "00a42c44-288e-42b4-b18a-6af8ed61eb43")
+	)
+	(fp_line
+		(start -1.25 1.4)
+		(end -1.25 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8c197cfc-e432-4d03-955c-289d8e0956a8")
+	)
+	(fp_line
+		(start 1.75 1.4)
+		(end 1.75 -1.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "173c69f1-f83b-458b-bc81-54e62437afae")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2a44153b-2917-4bd5-8beb-80230edcf912")
+		(effects
+			(font
+				(size 0.26 0.26)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.425 0)
+		(size 1.9 2.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "c68c51a0-2213-4579-ba47-396d4bc8d35c")
+	)
+	(pad "2" smd rect
+		(at 1.425 0)
+		(size 1.9 2.35)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(uuid "8f2fa038-dc1b-4124-8050-6acb7318bbc9")
+	)
+	(model "${KIPRJMOD}/LIB/MODEL/Kyocera TPS-B.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
