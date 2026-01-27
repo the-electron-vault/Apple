@@ -1,0 +1,238 @@
+(footprint "S7041-42R"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Harwin S7041-42R")
+	(property "Reference" "REF**"
+		(at 0 -3 0)
+		(layer "F.SilkS")
+		(uuid "41d78466-b78f-4259-a93b-b5098dbbea74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "S7041-42R"
+		(at 0 3.5 0)
+		(layer "F.Fab")
+		(uuid "c8b0a43f-eb80-49fa-9f77-e02d4b03d7c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7068a39b-246d-4132-b816-911630de3c5a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9b6170b4-d112-4f23-a2a0-d1c6eac1e98e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "025a5ab3-64de-45c0-950a-1057000b1307")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.65 -2.15)
+		(end 1.65 -2.15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fdc9b3fa-d07c-48cc-a8a4-548e86994229")
+	)
+	(fp_line
+		(start -1.65 -1.5)
+		(end -1.65 -2.15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "97b28808-6a44-461e-a68f-9bb792c844eb")
+	)
+	(fp_line
+		(start -1.65 3.9)
+		(end -1.65 3.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3b8a7d72-145a-4582-a3c1-21b49d9e8841")
+	)
+	(fp_line
+		(start -1.65 3.9)
+		(end 1.65 3.9)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "a6ba539c-f35a-4673-a27a-7850b6fd3ed1")
+	)
+	(fp_line
+		(start -1.65 4.15)
+		(end 1.65 4.15)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "70c2b912-282b-4b62-afc8-38cc2c189119")
+	)
+	(fp_line
+		(start 1.65 -2.15)
+		(end 1.65 -1.5)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "477a0242-9dd3-4ee9-9395-4a655a8b63c6")
+	)
+	(fp_line
+		(start 1.65 3.9)
+		(end 1.65 3.25)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c670cd34-9d86-40c6-bcea-ebc8bab3b671")
+	)
+	(fp_line
+		(start -1.75 -2.35)
+		(end -1.75 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b9410c0d-0a35-4009-95f1-f8a4e450744c")
+	)
+	(fp_line
+		(start -1.75 -2.35)
+		(end 1.75 -2.35)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08130497-69d6-4038-a227-d36366e1ac29")
+	)
+	(fp_line
+		(start -1.75 2.95)
+		(end 1.75 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "50cfd415-129e-4b5b-823e-5db1a4630dd1")
+	)
+	(fp_line
+		(start -0.5 0)
+		(end 0.5 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "18d04d10-6258-493c-b06d-435337327709")
+	)
+	(fp_line
+		(start 0 -0.5)
+		(end 0 0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "69e6a185-4c2c-4ad7-a484-c2d830a50b42")
+	)
+	(fp_line
+		(start 1.75 -2.35)
+		(end 1.75 2.95)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "87c6a153-4dbc-43ff-830b-d2a2c76b7827")
+	)
+	(fp_rect
+		(start -1.25 -1.85)
+		(end 1.25 2.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "a6c7b016-30b3-4152-865a-9a8978e850ab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "3061a90f-a481-4c92-b184-11e8cdb5c40e")
+		(effects
+			(font
+				(size 0.26 0.26)
+				(thickness 0.04)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 2.5 3.1)
+		(property pad_prop_testpoint)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(solder_paste_margin_ratio -0.05)
+		(thermal_bridge_angle 0)
+		(uuid "71bd5113-61af-4f98-a937-b89111941731")
+	)
+	(model "${KIPRJMOD}/LIB/MODEL/Harwin S7041-42R.stp"
+		(offset
+			(xyz 0 -0.7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

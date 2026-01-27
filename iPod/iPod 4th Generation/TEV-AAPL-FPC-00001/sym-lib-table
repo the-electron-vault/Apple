@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TEV-AAPL-FPC-00001")(type "Database")(uri "${KIPRJMOD}/LIB/TEV-AAPL-FPC-00001.kicad_dbl")(options "")(descr ""))
+  (lib (name "TEV-AAPL-FPC-00001_Symbols")(type "KiCad")(uri "${KIPRJMOD}/LIB/TEV-AAPL-FPC-00001_Symbols.kicad_sym")(options "")(descr ""))
+)

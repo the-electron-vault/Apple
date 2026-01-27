@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "TEV-AAPL-FPC-00001_Footprints")(type "KiCad")(uri "${KIPRJMOD}/LIB/TEV-AAPL-FPC-00001_Footprints.pretty")(options "")(descr ""))
+)

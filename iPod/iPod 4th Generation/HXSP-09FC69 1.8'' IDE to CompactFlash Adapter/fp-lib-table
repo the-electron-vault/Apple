@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "HXSP-09FC69_Footprints")(type "KiCad")(uri "${KIPRJMOD}/LIB/HXSP-09FC69_Footprints.pretty")(options "")(descr ""))
+)
